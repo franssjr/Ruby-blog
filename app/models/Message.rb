@@ -1,8 +1,10 @@
 class Message
-	RandNum = rand(20) + 1
+	#RandNum = rand(20) + 1
 
-	def ReturnTheMessage
-		case RandNum
+	def return_rhe_message
+		rand_num = rand(20) + 1
+
+		case rand_num
 		when 1
 			return "It is certain"
 		when 2
